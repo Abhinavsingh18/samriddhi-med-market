@@ -56,7 +56,7 @@ const AboutPage = () => {
             <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Our Story</h2>
             <div className="prose prose-lg max-w-none">
               <p>
-                Samriddhi Enterprises was founded in 2005 by Dr. Rajesh Kumar, a radiologist who 
+                Samriddhi Enterprises was founded in 2022 by Mr. Pankaj Singh Bhadauriya, a radiologist who 
                 recognized the challenges healthcare providers faced in acquiring reliable medical 
                 equipment at reasonable prices. What began as a small operation focusing on X-ray films 
                 and accessories has grown into a comprehensive medical equipment distributor serving 
@@ -131,10 +131,10 @@ const AboutPage = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-lg font-medium">Dr. Rajesh Kumar</h3>
+              <h3 className="text-lg font-medium">Mr. Pankaj Singh Bhadauriya</h3>
               <p className="text-medical-600">Founder & CEO</p>
             </div>
-            <div className="text-center">
+            {/* <div className="text-center">
               <div className="h-48 w-48 mx-auto rounded-full overflow-hidden mb-4">
                 <img 
                   src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300&q=80" 
@@ -144,8 +144,8 @@ const AboutPage = () => {
               </div>
               <h3 className="text-lg font-medium">Priya Sharma</h3>
               <p className="text-medical-600">Operations Director</p>
-            </div>
-            <div className="text-center">
+            </div> */}
+            {/* <div className="text-center">
               <div className="h-48 w-48 mx-auto rounded-full overflow-hidden mb-4">
                 <img 
                   src="https://images.unsplash.com/photo-1566753323558-f4e0952af115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300&q=80" 
@@ -155,7 +155,7 @@ const AboutPage = () => {
               </div>
               <h3 className="text-lg font-medium">Amit Patel</h3>
               <p className="text-medical-600">Technical Specialist</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -173,7 +173,7 @@ const AboutPage = () => {
               <Button asChild size="lg" className="bg-white text-medical-700 hover:bg-medical-50">
                 <Link to="/contact">Contact Us</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+              <Button asChild size="lg" variant="outline" className="border-white  text-medical-700 hover:bg-white/10">
                 <Link to="/products">View Products</Link>
               </Button>
             </div>

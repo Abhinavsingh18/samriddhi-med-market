@@ -1,9 +1,11 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import SignUpPage from './pages/SignUpPage';
+// import SignInPage from './pages/SignInPage';
+// import AccountPage from './pages/AccountPage';
 
 // Import pages
 import Layout from "./components/layout/Layout";
@@ -38,6 +40,9 @@ const App = () => (
             <Route path="/order-confirmation" element={<Layout><OrderConfirmation /></Layout>} />
             <Route path="/about" element={<Layout><AboutPage /></Layout>} />
             <Route path="/contact" element={<Layout><ContactPage /></Layout>} />
+            {/* <Route path="/signup" element={<SignUpPage />} />
+            <Route path="/signin" element={<SignInPage />} />
+            <Route path="/account" element={<AccountPage />} /> */}
             <Route path="*" element={<Layout><NotFound /></Layout>} />
           </Routes>
         </BrowserRouter>

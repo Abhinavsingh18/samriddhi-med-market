@@ -25,7 +25,7 @@ const HomePage = () => {
                   Browse Products
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+              <Button asChild size="lg" variant="outline" className="border-white text-medical-700 hover:bg-white/10">
                 <Link to="/contact">
                   Contact Us
                 </Link>

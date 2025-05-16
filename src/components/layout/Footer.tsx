@@ -104,11 +104,13 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-600">
               <li className="flex items-start">
                 <span className="mr-2">📍</span>
-                <span>123 Medical Center Road, Bangalore, Karnataka, India</span>
+                <span>Shop No.112, 119, 120<br />
+                      Krishna Mall, Roxy Talkies<br />
+                      Gwalior, MP - 474009</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-2">📱</span>
-                <span>+91 9876543210</span>
+                <span>+91 94075 88473</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-2">✉️</span>

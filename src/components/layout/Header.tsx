@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
@@ -6,6 +5,8 @@ import { Input } from "@/components/ui/input";
 import { Search, ShoppingCart, User, Menu, X } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { useCart } from "@/context/CartContext";
+import AccountPage from '@/pages/AccountPage';
+
 
 const Header = () => {
   const { cartItems } = useCart();
@@ -49,6 +50,9 @@ const Header = () => {
             </Link>
             <Link to="/contact" className="text-gray-700 hover:text-medical-600 font-medium">
               Contact
+            </Link>
+            <Link to="/account" className="text-gray-700 hover:text-medical-600 font-medium">
+              My Account
             </Link>
           </nav>
 

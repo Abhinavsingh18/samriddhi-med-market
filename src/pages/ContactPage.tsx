@@ -262,7 +262,7 @@ const ContactPage = () => {
           <h2 className="text-2xl font-bold mb-6 text-medical-700">Our Location</h2>
           <div className="h-96 w-full rounded-lg overflow-hidden shadow-md">
             {/* Google Maps Embed for Gwalior */}
-            <iframe 
+            {/* <iframe 
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.0682308146107!2d78.17173491503557!3d26.2308985832941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c428b7b08cf5%3A0xf527e8647abffc96!2sRoxy%20Cinema%2C%20Krishna%20Mall%2C%20Padav%2C%20Gwalior%2C%20Madhya%20Pradesh%20474001!5e0!3m2!1sen!2sin!4v1620034015235!5m2!1sen!2sin" 
               width="100%" 
               height="100%" 
@@ -270,7 +270,16 @@ const ContactPage = () => {
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
               title="Office Location Map"
-            ></iframe>
+            ></iframe> */}
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.0131047111336!2d78.14719867519841!3d26.196251977081573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c5509fd83ae5%3A0x14e85f3460f56793!2sKrishna%20mall!5e0!3m2!1sen!2sin!4v1747413309871!5m2!1sen!2sin" 
+            width="1370" 
+            height="380" 
+            style={{ border: 0 }} 
+            allowFullScreen={true} 
+            loading="lazy" 
+            referrerPolicy="no-referrer-when-downgrade">
+
+            </iframe>
           </div>
         </div>
       </section>
