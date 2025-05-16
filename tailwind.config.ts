@@ -19,6 +19,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Poppins', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -53,18 +56,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Medical theme colors
+				// Medical theme colors - enhanced with a more vibrant palette
 				medical: {
-					50: '#f0f9ff',
-					100: '#e0f2fe',
-					200: '#bae6fd',
-					300: '#7dd3fc',
-					400: '#38bdf8',
-					500: '#0ea5e9',
-					600: '#0284c7',
-					700: '#0369a1',
-					800: '#075985',
-					900: '#0c4a6e',
+					50: '#e6f7ff',
+					100: '#bae8ff',
+					200: '#91d8ff',
+					300: '#66c7ff',
+					400: '#3bb5ff',
+					500: '#0a96f7',
+					600: '#0078d4',
+					700: '#005ea6',
+					800: '#004578',
+					900: '#00315c',
 				},
 			},
 			borderRadius: {

@@ -44,7 +44,7 @@ const ContactPage = () => {
 
   return (
     <div>
-      {/* Hero Section */}
+      {/* Hero Section - Updated with new color scheme */}
       <section className="bg-medical-700 py-16 md:py-20 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
@@ -61,8 +61,8 @@ const ContactPage = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16">
             {/* Contact Form */}
-            <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
-              <h2 className="text-2xl font-bold mb-6">Send Us a Message</h2>
+            <div className="bg-white p-8 rounded-xl shadow-md border border-gray-100">
+              <h2 className="text-2xl font-bold mb-6 text-medical-700">Send Us a Message</h2>
               <form onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 gap-y-4">
                   <div>
@@ -76,6 +76,7 @@ const ContactPage = () => {
                       onChange={handleChange}
                       required
                       placeholder="John Doe"
+                      className="border-medical-200 focus:border-medical-500 focus:ring-medical-500"
                     />
                   </div>
                   
@@ -92,6 +93,7 @@ const ContactPage = () => {
                         onChange={handleChange}
                         required
                         placeholder="your@email.com"
+                        className="border-medical-200 focus:border-medical-500 focus:ring-medical-500"
                       />
                     </div>
                     <div>
@@ -104,6 +106,7 @@ const ContactPage = () => {
                         value={formData.phone}
                         onChange={handleChange}
                         placeholder="Your phone number"
+                        className="border-medical-200 focus:border-medical-500 focus:ring-medical-500"
                       />
                     </div>
                   </div>
@@ -119,6 +122,7 @@ const ContactPage = () => {
                       onChange={handleChange}
                       required
                       placeholder="How can we help you?"
+                      className="border-medical-200 focus:border-medical-500 focus:ring-medical-500"
                     />
                   </div>
                   
@@ -134,6 +138,7 @@ const ContactPage = () => {
                       required
                       placeholder="Please write your message here..."
                       rows={5}
+                      className="border-medical-200 focus:border-medical-500 focus:ring-medical-500"
                     />
                   </div>
                   
@@ -150,9 +155,9 @@ const ContactPage = () => {
               </form>
             </div>
             
-            {/* Contact Information */}
+            {/* Contact Information - Updated address */}
             <div>
-              <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
+              <h2 className="text-2xl font-bold mb-6 text-medical-700">Contact Information</h2>
               <div className="space-y-8">
                 <div className="flex">
                   <div className="h-12 w-12 rounded-full bg-medical-50 flex items-center justify-center flex-shrink-0">
@@ -161,9 +166,9 @@ const ContactPage = () => {
                   <div className="ml-4">
                     <h3 className="text-lg font-medium mb-1">Our Office</h3>
                     <p className="text-gray-600">
-                      123 Medical Center Road<br />
-                      Koramangala, Bangalore<br />
-                      Karnataka, India - 560034
+                      Shop No.112, 119, 120<br />
+                      Krishna Mall, Roxy Talkies<br />
+                      Gwalior, MP - 474009
                     </p>
                   </div>
                 </div>
@@ -251,14 +256,14 @@ const ContactPage = () => {
         </div>
       </section>
 
-      {/* Map Section */}
+      {/* Map Section - Updated to show the correct location */}
       <section className="py-8">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-6">Our Location</h2>
-          <div className="h-96 w-full rounded-lg overflow-hidden">
-            {/* Google Maps Embed */}
+          <h2 className="text-2xl font-bold mb-6 text-medical-700">Our Location</h2>
+          <div className="h-96 w-full rounded-lg overflow-hidden shadow-md">
+            {/* Google Maps Embed for Gwalior */}
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5834569102017!2d77.62262991482287!3d12.934496690880272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15d96c575b09%3A0x9d6918f8193e55c3!2sKoramangala%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1652354358672!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.0682308146107!2d78.17173491503557!3d26.2308985832941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c428b7b08cf5%3A0xf527e8647abffc96!2sRoxy%20Cinema%2C%20Krishna%20Mall%2C%20Padav%2C%20Gwalior%2C%20Madhya%20Pradesh%20474001!5e0!3m2!1sen!2sin!4v1620034015235!5m2!1sen!2sin" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
